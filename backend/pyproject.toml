@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "recommendation-news"
+version = "0.1.0"
+description = ""
+authors = ["Adriano-w <adriano_201113@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.9"
+uvicorn = "^0.34.0"
+pandas = "^2.2.3"
+joblib = "^1.4.2"
+scikit-learn = "^1.6.1"
+pyarrow = "^19.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
